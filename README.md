@@ -23,5 +23,6 @@
  localhost:8000/searchComics
  
  Lo cual hace la petición GET a la API de Marvel para posteriormente mostrar los datos en un template, sin embargo, el template al ser independiente
- de la solicitud, puede ser desarrollado de la manera en que se desee, o bien, únicamente hacer la llamada a la solicitud desde otra aplicación.
+ de la solicitud, puede ser desarrollado de la manera en que se desee, o bien, únicamente hacer la llamada a la solicitud desde otra aplicación y 
+ realizar los filtros correspondientes dependiendo de que información se quiere consutlar.
  
