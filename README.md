@@ -5,13 +5,13 @@
  Después de clonar el proyecto, ejecutar el archivo local.txt de la carpeta requierements, 
  para ello debemos tener activo un entorno virtual de python
  
- Una vez activado, ingresar a la carpeta del proyecto desde la terminal y movernos al directorio del archivo de configuración, 
+ Una vez activado, ingresar a la carpeta del proyecto desde la terminal y movernos a la carpeta de la aplicación, 
  que en le caso de Linux o Mac es:
  
- cd microservice/requirements
+ cd microservice
  
  Y ejecutar el comando:
- pip install -r local.txt
+ pip install -r env_requirements.txt
  
  Después de ello, damos de alta el servidor local, para ello nos posicionamos en la carpeta del mismo nombre microService
  a la altura del archivo manage.py e introducimos el comando en la terminal:
