@@ -2,19 +2,19 @@
  
  **Instalación**
  
- Después de clonar el proyecto, ejecutar el archivo local.txt de la carpeta requierements, 
- para ello debemos tener activo un entorno virtual de python
+ Después de clonar el proyecto, ejecutar el archivo env_requirements.txt del proyecto principal, 
+ para ello debemos tener activo un entorno virtual de python.
  
- Una vez activado, ingresar a la carpeta del proyecto desde la terminal y movernos a la carpeta de la aplicación, 
+ Una vez activado el entorno virtual, ingresar a la carpeta del proyecto desde la terminal, 
  que en le caso de Linux o Mac es:
  
- cd microservice
+ cd pruebaDjango
  
  Y ejecutar el comando:
- pip install -r env_requirements.txt
+ pip install env_requirements.txt
  
- Después de ello, damos de alta el servidor local, para ello nos posicionamos en la carpeta del mismo nombre microService
- a la altura del archivo manage.py e introducimos el comando en la terminal:
+ Después de ello, damos de alta el servidor local, para ello nos posicionamos a la altura del archivo manage.py e introducimos 
+ el comando en la terminal:
  
  python manage.py runserver
  
